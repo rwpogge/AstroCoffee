@@ -8,6 +8,6 @@ See [Release Notes](releases.md) for details.
 
 ## Overview
 
-First commit, work in progress [rwp/osu 2026 Mar 8]
+Work in progress, first commit after migration to GitHub [rwp/osu 2026 Mar 8]
 
 
