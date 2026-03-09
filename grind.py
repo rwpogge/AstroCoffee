@@ -39,8 +39,8 @@ from bs4 import BeautifulSoup
 
 # Setup
 
-versionID = '3.0.4'
-versionDate = '2024-03-05'
+versionID = '3.0.5'
+versionDate = '2026-03-08'
 
 # ArXiV RSS Feed for astro-ph
 
