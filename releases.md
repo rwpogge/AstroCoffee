@@ -7,7 +7,7 @@
 Minor code changes required because of a major python update, some things `BeautifulSoup` did before
 have been deprecated, method names changed (`findAll()` changed to `find_all()`), and some minor cleanup.
 
-This is also the version we migrated onto GitHub for proper shared curation.
+This is the version we migrated onto GitHub for support and curation moving forward.
 
 
 ## Version 3.0.4 - 2024 Mar 4
