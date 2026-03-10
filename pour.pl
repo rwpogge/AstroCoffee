@@ -1,18 +1,19 @@
 #!/usr/bin/perl
 #
 # pour.pl -- final step - copy the freshly brewed abstract index into
-#            the public web page, and print the abstracts and index
+#            the public web page and archive the old abstract index
 #
-# This script is invoked by the "brew.pl" script, which if all has gone
-# well has prepared a series of files containing the new edition of
-# "The Daily Brew" (the master list of the day's selected papers),
-# a set of HTML files of the individual abstracts extracted from the RSS
-# feed, and a shell script that will do the printing.
+# This script is invoked by the "brew.pl" script, which has as set of
+# selected papers for the new edition of "The Daily Brew" (the master
+# list of the day's selected papers).
 #
 # pour.pl is the "do it" script.  It creates the public version of the
-# Daily Brew webpage from the temporary copy, updates the Daily Brew
-# Archives, and prints the abstracts and paper copies of the Daily Brew
-# on the designated printer.
+# Daily Brew webpage from the temporary copy and updates the Daily
+# Brew Archives.
+#
+# The original versions from 2002 until 2022 would also print paper
+# copies of the Daily Brew and selected papers, but we went paperless
+# in 2022.
 #
 # R. Pogge, OSU Astronomy Dept.
 # pogge@astronomy.ohio-state.edu

@@ -1,21 +1,20 @@
 #!/usr/bin/perl
 #
-# brew.pl -- make coffee web page and script to print them out.
+# brew.pl -- confirm paper selections and make the AstroCoffee summary page
 #
-# This script is invoked by the "grind.pl" script in which the user
-# selects astro-ph abstracts to be extracted from arXiv.org This script
-# lets the user review the choices from "grind.pl" before committing
-# them to print.  It also generates the printout pages for each selected
-# abstract and the Daily Brew edition.
+# This script is invoked by the "grind.py" script with which the user
+# selects astro-ph abstracts to be extracted from arXiv.org.  It shows
+# the user their selections and asks them to review their choices
+# before committing them.
 #
-# When the "Print Them!" button is pressed, the selection review form
-# triggers the "pour.pl" script which does the printing, archiving, and
-# other tasks associated with putting up the lastest edition of the
-# Daily Brew.
+# When the "SUBMIT" button is pressed, the selection review form
+# triggers the "pour.pl" script creates the new copy of the Daily Brew
+# and performs other housekeeping tasks including archiving the old
+# copy of the Brew.
 #
-# This version uses the new paper database file created by grind.pl from
-# the current RSS feed from arXiv.org, bypassing the old code that read
-# the daily email.
+# Starting in 2022 we became paperless and no longer generate files
+# needed to print paper copies of the Daily Brew and selected paper
+# abstracts.
 #
 # R. Pogge, OSU Astronomy Dept.
 # pogge@astronomy.ohio-state.edu
